@@ -40,3 +40,16 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
+button:focus-visible {
+    outline: none;
+}
+/* трек (фон) */
+::-webkit-scrollbar-track {
+    background: var(--bg-primary);
+}
+
+/* ползунок */
+::-webkit-scrollbar-thumb {
+    background: var(--accent-color);
+    border-radius: 8px;
+}
