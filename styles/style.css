@@ -11,18 +11,18 @@
 .header__theme-menu-button {
     background-color: transparent;
     color: rgba(var(--accent-color-btn-rgb));
-    border: none;
     transition: border-color 0.2s ease;
+    outline: none;
+    border: none;
 }
 .header__theme-menu-button_active {
-    border: 1px solid rgba(var(--accent-color-btn-rgb));
+    outline: 1px solid rgba(var(--accent-color-btn-rgb));
 }
 .header__theme-menu-button:hover {
-    border: 1px solid rgba(var(--accent-color-btn-rgb), 0.4);
+    outline: 1px solid rgba(var(--accent-color-btn-rgb), 0.4);
     cursor: pointer;
 }
 .header__theme-menu-button:focus-visible {
-    border: none;
     border-bottom: 1px solid rgba(var(--accent-color-btn-rgb), 0.4);
 }
 .title-decor {
@@ -114,6 +114,7 @@
     border-radius: 50%;
 }
 .header__theme-menu {
+    padding-top: 50px;
     margin: auto 0;
     align-self: flex-end;
 }
@@ -212,6 +213,7 @@
         margin-inline: calc(-1 * 20px);
     }
     .header__theme-menu {
+        padding-top: 0;
         margin: 0;
         align-self: center;
     }
