@@ -40,7 +40,8 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
-button:focus-visible {
+button:focus-visible,
+a:focus-visible {
     outline: none;
 }
 /* трек (фон) */
